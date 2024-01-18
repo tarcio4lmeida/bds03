@@ -4,10 +4,14 @@ import java.io.Serializable;
 
 import com.devsuperior.bds03.entities.Department;
 
+import javax.validation.constraints.NotBlank;
+
 public class DepartmentDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	public Long id;
+
+	@NotBlank(message = "Campo requerido")
 	public String name;
 	
 	public DepartmentDTO() {

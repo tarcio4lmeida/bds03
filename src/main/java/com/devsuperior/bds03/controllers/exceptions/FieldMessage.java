@@ -1,4 +1,4 @@
-package com.devsuperior.dscatalog.resources.exceptions;
+package com.devsuperior.bds03.controllers.exceptions;
 
 import java.io.Serializable;
 

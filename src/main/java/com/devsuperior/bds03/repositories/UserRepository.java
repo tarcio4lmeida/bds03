@@ -1,6 +1,6 @@
-package com.devsuperior.dscatalog.repositories;
+package com.devsuperior.bds03.repositories;
 
-import com.devsuperior.dscatalog.entities.User;
+import com.devsuperior.bds03.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
